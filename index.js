@@ -4,8 +4,8 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Pega as variáveis de ambiente (se não tiver, usa os valores fixos pra testar local)
-const EMAIL = process.env.EMAIL || "3688604";
-const SENHA = process.env.SENHA || "Tatiane96@";
+const EMAIL = process.env.EMAIL || "jjnn";
+const SENHA = process.env.SENHA || "nnnnnnb";
 const API_AZURE = "https://prd-server-martim-app.kindcoast-0cb92a3a.eastus.azurecontainerapps.io/api/soap/linha-geral/";
 
 let bearerToken = null;
